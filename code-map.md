@@ -9,6 +9,6 @@ Plugin local para tentativas de fallback de modelo por agente no OpenCode v2.
 | `src/fallback-policy.js` | Valida configuração, classifica falhas e percorre a lista ordenada. |
 | `tests/` | Testes unitários de política, elegibilidade e parsing de referências. |
 | `package.json`, `package-lock.json` | Dependência do SDK de plugin OpenCode e comandos do projeto. |
-| `README.md`, `README.pt-BR.md` | Instalação e configuração do plugin. |
+| `README.md`, `README.pt-BR.md` | Instalação/configuração e procedimento para verificar troca e retry via log do plugin e histórico `model-switched` local do OpenCode. |
 
 Validar com `npm test` (Node.js >=22). O smoke test de integração com provedor simulado confirmou retries em sequência no OpenCode v2.0.32.
